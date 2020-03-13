@@ -12,6 +12,6 @@ end
 
 def sort_array_char_count(character)
   character.sort.length do |a, b|
-    a <=>
+    a <=> b
   end
 end
