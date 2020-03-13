@@ -36,3 +36,6 @@ def find_a(array)
     name.start_with?("a")
     end
   end
+
+def sum_array(addition)
+  addition.inject(0){|sum, x| sum + x }
