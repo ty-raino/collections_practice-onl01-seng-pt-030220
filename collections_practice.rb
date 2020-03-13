@@ -19,3 +19,9 @@ end
 def swap_elements(array)
 array[0], array[1], array[2] = array[0], array[2], array[1]
 end
+
+def reverse_array(numbers)
+  numbers.collect do |num|
+    num.reverse
+  end
+end
