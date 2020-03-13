@@ -23,3 +23,11 @@ end
 def reverse_array(numbers)
   numbers.reverse 
 end
+
+def kesha_maker(array)
+  array.each do |dollar|
+    dollar[3] = "$"
+  end
+  array
+end
+    
