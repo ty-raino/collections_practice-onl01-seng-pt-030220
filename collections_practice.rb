@@ -42,4 +42,11 @@ def sum_array(addition)
 end
 
 def add_s(word)
+  word.each_with_index.collect{|words, index| }
+  if index == 1
+    words
+  else words[words.length] = "s"
+    words
+  end
+ end
 end
