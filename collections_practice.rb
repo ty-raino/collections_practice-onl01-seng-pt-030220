@@ -40,3 +40,6 @@ def find_a(array)
 def sum_array(addition)
   addition.inject(0){|sum, x| sum + x }
 end
+
+def add_s(word)
+end
